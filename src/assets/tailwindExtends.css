@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-link {
+        cursor: pointer;
+    }
+}
+
+@layer utilities {
+    .primary-gradient-text {
+        --tw-gradient-from: #FCB045;
+        --tw-gradient-to: #FD1D1D;
+        --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    }
+
+    .primary-gradient-title {
+        --tw-gradient-from: #FCB045;
+        --tw-gradient-to: #FF3F78;
+        --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+    }
+    
+}

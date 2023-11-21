@@ -1,0 +1,29 @@
+
+.background {
+  @media screen and (min-width: 600px) {
+    background-position: top 0px left 50%,
+    left 0px top 50%,
+    top 83px left 40%,
+    top 0px left 60%,
+    top 60% left 60%;
+
+    background-repeat: no-repeat;
+
+    background-image: url(/images/purple.png),
+    url(/images/red.png),
+    url(/images/redBall.png),
+    url(/images/purpleBall.png),
+    url(/images/redBluredBall.png);
+  }
+}
+
+.contentBackground {
+  @media screen and (max-width: 600px) {
+    background-size: cover;
+    background-position: bottom 0px right 0px;
+
+    background-repeat: no-repeat;
+
+    background-image: url(/images/mobile/background.png),
+  }
+}
